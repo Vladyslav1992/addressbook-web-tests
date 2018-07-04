@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace addressbook_web_tests
+namespace WebAdressbookTests
 {
     class GroupData
     {
         private string name;
+        private string header = "";
+        private string footer = "";
 
         public GroupData(string name)
         {
@@ -26,5 +28,28 @@ namespace addressbook_web_tests
                 name = value;
             }
         }
+
+        public string Header
+        {
+            get
+            {
+                return header;
+            }
+            set
+            {
+                header = value;
+            }
+        }
+
+        public string Footer
+        {
+            get
+            {
+                return footer;
+            }
+            set
+            {
+                footer = value;
+            }
+        }
     }
-}

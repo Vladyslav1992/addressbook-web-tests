@@ -2,7 +2,6 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using addressbook_web_tests;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -47,7 +46,10 @@ namespace WebAdressbookTests
             Login(new AccountData("admin", "secret"));
             GoToGroupsPage();
             InitNewGroupCreation();
-            FillGroupForm("Name", "Header", "Footer");
+            GroupData group = new GroupData("Name");
+            group.Header = "Header";
+            group.Footer = "Footer";
+            FillGroupForm(group);
             SubmitGroupCretion();
             ReturnToGroupsPage();
         }
@@ -63,17 +65,17 @@ namespace WebAdressbookTests
             driver.FindElement(By.Name("submit")).Click();
         }
 
-        private void FillGroupForm(string name, string header, string footer)
+        private void FillGroupForm(GroupData group)
         {
             driver.FindElement(By.Name("group_name")).Click();
             driver.FindElement(By.Name("group_name")).Clear();
-            driver.FindElement(By.Name("group_name")).SendKeys(name);
+            driver.FindElement(By.Name("group_name")).SendKeys(group.Name);
             driver.FindElement(By.Name("group_header")).Click();
             driver.FindElement(By.Name("group_header")).Clear();
-            driver.FindElement(By.Name("group_header")).SendKeys(header);
+            driver.FindElement(By.Name("group_header")).SendKeys(group.Header);
             driver.FindElement(By.Name("group_header")).Click();
             driver.FindElement(By.Name("group_footer")).Clear();
-            driver.FindElement(By.Name("group_header")).SendKeys(footer);
+            driver.FindElement(By.Name("group_header")).SendKeys(group.Footer);
         }
 
         private void InitNewGroupCreation()

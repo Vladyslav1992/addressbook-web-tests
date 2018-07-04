@@ -40,4 +40,4 @@ namespace WebAdressbookTests
                 password = value;
             }
         }
-}
+    }

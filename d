@@ -1,0 +1,12 @@
+Amends
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch Amend
+# Changes to be committed:
+#	modified:   .vs/addressbook-web-tests/v15/.suo
+#	modified:   addressbook-web-tests/AccountData.cs
+#	modified:   addressbook-web-tests/GroupCreationTests.cs
+#	modified:   addressbook-web-tests/GroupData.cs
+#	modified:   addressbook-web-tests/addressbook-web-tests.csproj
+#
