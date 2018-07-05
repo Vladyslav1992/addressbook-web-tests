@@ -19,25 +19,14 @@ namespace WebAdressbookTests
 
         public string Username
         {
-            get
-            {
-                return username;
-            }
-            set
-            {
-                username = value;
-            }
+            get { return username; }
+            set { username = value; }
         }
 
         public string Password
         {
-            get
-            {
-                return password;
-            }
-            set
-            {
-                password = value;
-            }
+            get { return password; }
+            set { password = value; }
         }
     }
+}
