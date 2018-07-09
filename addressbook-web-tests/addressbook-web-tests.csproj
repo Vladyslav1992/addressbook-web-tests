@@ -59,14 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountData.cs" />
+    <Compile Include="TestData\AccountData.cs" />
     <Compile Include="GroupCreationTests.cs" />
-    <Compile Include="GroupData.cs" />
-    <Compile Include="GroupHelper.cs" />
+    <Compile Include="TestData\GroupData.cs" />
+    <Compile Include="Helpers\GroupHelper.cs" />
     <Compile Include="GroupRemovalTest.cs" />
-    <Compile Include="HelperBase.cs" />
-    <Compile Include="LoginHelper.cs" />
-    <Compile Include="NavigationHelper.cs" />
+    <Compile Include="Helpers\HelperBase.cs" />
+    <Compile Include="Helpers\LoginHelper.cs" />
+    <Compile Include="Helpers\NavigationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>
