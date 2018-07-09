@@ -9,11 +9,11 @@ using OpenQA.Selenium.Support.UI;
 
 namespace WebAdressbookTests
 {
-    public class GroupHelper
+    public class GroupHelper : HelperBase
     {
         private IWebDriver driver;
 
-        public GroupHelper(IWebDriver driver)
+        public GroupHelper(IWebDriver driver) : base(driver)
         {
             this.driver = driver;
         }
