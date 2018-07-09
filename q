@@ -1,0 +1,20 @@
+Apend GroupDeletetest
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	modified:   .vs/addressbook-web-tests/v15/.suo
+#	modified:   .vs/addressbook-web-tests/v15/Server/sqlite3/storage.ide
+#	modified:   .vs/addressbook-web-tests/v15/Server/sqlite3/storage.ide-wal
+#	modified:   addressbook-web-tests/AccountData.cs
+#	modified:   addressbook-web-tests/GroupCreationTests.cs
+#	modified:   addressbook-web-tests/GroupData.cs
+#	new file:   addressbook-web-tests/GroupRemovalTest.cs
+#	modified:   addressbook-web-tests/addressbook-web-tests.csproj
+#	modified:   addressbook-web-tests/bin/Debug/addressbook-web-tests.dll
+#	modified:   addressbook-web-tests/bin/Debug/addressbook-web-tests.pdb
+#	modified:   addressbook-web-tests/obj/Debug/addressbook-web-tests.csproj.CoreCompileInputs.cache
+#	modified:   addressbook-web-tests/obj/Debug/addressbook-web-tests.dll
+#	modified:   addressbook-web-tests/obj/Debug/addressbook-web-tests.pdb
+#
